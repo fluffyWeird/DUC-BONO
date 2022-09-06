@@ -1,9 +1,7 @@
 body{
-    background-color: #003366;
+    background-color:brown ;
 	align-content: center;
-	height:960px;
-	
-	
+	height:1080px;
 }
 img{
 	width:auto;
@@ -12,10 +10,48 @@ img{
 	margin:0px;
 	padding:0px;
 }
-#myNav{
+nav{
 background-color: #002c5f ;	
 height:110px;
+display:flex;
+position:relative;
+align-items:right;
+justify-content: right;
 }
+nav button{
+background:transparent;
+border-radius: 1%;
+align-items: left;
+
+}
+nav button:checked{
+	border-color:aliceblue;
+}
+nav button:hover{
+	border-color:aliceblue;
+}
+.myNav{
+	align-items: left;
+	justify-content: left;
+	margin:0px 5px 20px 0;
+	height:100px;
+}
+
+
 #firstLogoPic{
 	height:100px;
+}
+	
+.fitlogo{
+	height:140px;
+}
+.logout{
+	height:90px;
+	
+}
+.plogout{
+	color: white;
+	display:inline;
+	font-size:46px;
+	margin-bottom:20px;
 }
