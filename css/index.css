@@ -1,0 +1,21 @@
+body{
+    background-color: #003366;
+	align-content: center;
+	height:960px;
+	
+	
+}
+img{
+	width:auto;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+#myNav{
+background-color: #002c5f ;	
+height:110px;
+}
+#firstLogoPic{
+	height:100px;
+}
